@@ -1,0 +1,44 @@
+
+.body {
+    background-color: gray;
+}
+.border {
+    border: 1px solid green  
+}
+
+.borde{
+    border: 1px solid orangered;
+}
+.header {
+        height: 20vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid green;
+}
+
+
+.main {
+    
+    
+    border: 1px solid green
+    
+    
+   
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid green;
+   
+    
+}
+.menu1 {
+    width: 60%;
+    justify-content:space-evenly;
+    display: flex;
+    list-style-type: none;
+
+}

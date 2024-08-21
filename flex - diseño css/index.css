@@ -1,0 +1,35 @@
+body{
+    background: rgb(97, 100, 100);
+}
+.bordes{
+    border: 1px solid black;
+}
+.estilo{
+    border: 1px solid red;
+    background-color: cadetblue;
+}
+.container-header{
+    display:flex;
+    flex-direction: row;
+    /*flex-wrap: wrap; /* para que no se desborde, los items que se desbordan pasan abajp*/
+    justify-content: space-around; /* trabaja con los espacios libres de manera orizontal*/
+    align-items:center ; /* trabaja con los espacios de manera vertical*/
+}
+.item1{
+    order: 0; /* ordena o coloca ,los hijos en la posicion que desee, en orden de array (0,....)*/
+
+}
+.item2{
+    order: 1;
+    flex-shrink: 2; /*para hacer mas pequeño los items al abrir o cerrar la pantalla*/
+    
+}
+.item3{
+    order: 2;
+    flex-grow: 3;/*cuando se reduzca la pantalla este item sera mas grande que los demas*/
+    align-self: flex-start;/*mueve un solo items hacia arriba*/
+}
+.item4{
+    order: 3;
+    align-self:flex-end; /* mueve un solo item hacia abajo*/
+}

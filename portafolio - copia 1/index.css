@@ -1,0 +1,184 @@
+body {
+    background-color: rgb(187, 187, 187);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+:root{
+    --color_primario: red ;
+    /* crear variables, se llaman con var(nombre)*/ 
+
+}
+
+header {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: rgb(72, 166, 230);
+    box-sizing: border-box;
+}
+
+.article {
+    width: 15%;
+    height: 55%;
+    border: 1px solid rgb(7, 23, 243); 
+    margin-left: 10px;   
+}
+
+.section1 {
+    width: 40%;
+    justify-content: left;
+    margin-left: 20px; 
+}
+
+.section2 {
+    width: 40%;
+    height: 15%;
+    border: 1px solid rgb(7, 23, 243); 
+    display: flex;
+    align-items: center;
+}
+
+.ol {
+    display: flex;           
+    list-style-type: none;
+    gap: 50px;
+}
+
+.h2 {
+    font-size: 25px;
+}
+
+.h1 {
+    font-size: 35px;
+}
+
+main{
+    height: 60vh;
+    width: 100%;
+    border: 1px solid blue;
+    background: gray;
+    display: flex;
+    align-items:normal;
+    text-align: center;
+    list-style-type: none;
+    
+}
+.section3{
+    height: 90%;
+    width: 30%;
+    border: 1px solid blue;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.section4{
+    height:90% ;
+    width: 35%;
+    border: 1px solid blue;
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content:center;
+
+}
+
+.section5{
+    height: 45%;
+    width: 95%;
+    display: flex;
+    text-align: center;
+    border: 1px solid rgb(46, 13, 235);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.section5 img{
+    height: 100%;
+    width: 100%;
+
+}
+.ol2{
+    list-style-type: none;
+}
+.li1{
+    font-size: 25px;
+}
+.li2{
+    font-size: 22px;
+}
+.p1{
+    font-size: 18px;
+}
+.li3{
+    font-size: 22px;
+}
+.li4{
+    font-size: 18px;
+}
+.li5{
+    font-size: 22px;
+}
+.p2{
+    font-size: 18px;
+}
+
+.section6{
+    width: 30%;
+    height: 90%;
+    border: 1px solid rgb(46, 13, 235);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+footer{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 1300px;
+    margin: auto;
+
+}
+
+.border{
+    border: 1px solid rgb(46, 13, 235);
+}
+.section7{
+    height: 90%;
+    width: 90%;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    display: flex;
+}
+.section8{
+    height: 100%;
+    width: 20%;
+    border: 1px solid rgb(4, 0, 255);
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.imagen{
+    width: 50%;
+    border: 1px solid red;
+    display: flex;
+    
+
+}
+.shadow{
+    box-shadow: 15px 15px 10px black;//* para dar sombra*/
+}
+.shadow-t{
+    text-shadow: 5px 5px 0px red,  /*para colocar sombra en el texto*/
+                7px 7px 0px blue,
+                9px 9px 0px purple;
+}
+
+.fondo{
+    background-image:url(imag/im.jpg)
+}
+
+
